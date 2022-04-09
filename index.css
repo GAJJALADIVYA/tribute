@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#mainsheet{
+    background:url('download66.jpg');
+    background-size: cover ;
+    background-position: center;
+    height:100vh;
+    
+}
+.mainsheet-text {
+    text-align: center;
+
+
+
+}
+
+.mainsheet-text h1{
+    text-align:center;
+    color:crimson;
+    padding-top: 40px ;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    text-shadow: 2px,1px,2px,black;
+    font-size:110px;
+    top:-200px;
+    margin-top: 10px;
+
+}
+
+
+.single-previous {
+    flex-basis: 48%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.single-previous img {
+    width:50%;
+    height: 50%;
+    border-radius: 20px;
+    text-align: center;
+}
+.overlay {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top:0.5px;
+    left: 305px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5),lightpink);
+    opacity: 0;
+    transition: 1s;
+}
+.single-previous:hover .overlay {
+    opacity: 1;
+}
+.second-previous {
+    width:50%;
+    position: absolute;
+    bottom: 50%;
+    left:50%;
+    transform: translateX(-50%);
+
+
+}
+.second-previous h3{
+    font-size: 30px;
+    font-style: italic;
+    color:black;
+}
+.second-previous p{
+    font-size: 25px;
+    font-style: initial;
+    color:black;
+}
+.sheet1{
+    background:url('download66.jpg');
+    background-size: cover ;
+    background-position: center;
+    height:100vh;
+   
+}
+#sheet2{
+    border: solid red 5px;
+    text-align: center;
+    font-family:  'Akronim', cursive;;
+    font-size: 50px;
+    color: darkseagreen;
+}
+.sheet3{
+    width: 30%;
+    height: 40%;
+    border-radius: 35px;
+    
+    
+}
+#data{
+    font-size: 16px;
+    color: wheat;
+    font-style: inherit;
+    text-align: left;
+    left:60px;
+    
+    
+
+}
+.sheet4{
+    width: 30%;
+    height: 40%;
+    border-radius: 35px;
+    right: 50px;
+}
+.section3{
+    background:url('download66.jpg');
+    background-size: cover ;
+    background-position: center;
+    height:100vh;
+      
+}
